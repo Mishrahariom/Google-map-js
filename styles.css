@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+
+#animation {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    transition: top 0.2s linear, left 0.2s linear;
+}
